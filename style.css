@@ -1,0 +1,60 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+    background: url("https://th.bing.com/th/id/R.dfff305e8b1f52b52e3a427a334f1e97?rik=lbm228W%2fTIeSMQ&riu=http%3a%2f%2fallpicts.in%2fwp-content%2fuploads%2f2016%2f10%2fChicago-City-At-Night-for-Wallpaper.jpg&ehk=7zqacXQEZv264Tt2wH6RfbbWw90TmFTeshMB7EaOnDE%3d&risl=&pid=ImgRaw&r=0  ");
+    background-size: cover;
+    overflow: hidden;
+  }
+
+  h2 {
+    text-transform: uppercase;
+    letter-spacing: 20px;
+    font-size: 54px;
+    text-align: center;
+    color: rgba(203, 49, 234, 0.747);
+  }
+
+  .clock {
+    display: flex;
+  }
+  
+  .clock div {
+    margin: 5px;
+    position: relative;
+  }
+
+  .clock span {
+    width: 100px;
+    height: 80px;
+    background: rgb(226, 121, 226);
+    opacity: 0.8;
+    color: rgb(247, 244, 247);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  }
+
+  .clock .text {
+    height: 30px;
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    background: rgb(86, 3, 109);
+    opacity: 0.8;
+  }
+  
+  .clock #ampm {
+    bottom: 0;
+    position: absolute;
+    width: 60px;
+    height: 30px;
+    font-size: 20px;
+    background: rgb(96, 9, 219);
+  }
